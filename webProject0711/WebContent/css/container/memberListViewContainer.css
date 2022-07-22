@@ -1,0 +1,74 @@
+/*memberListViewContainer*/
+
+.container{
+	width: 100%;
+	height: auto;
+	border: 0px solid;
+}
+.container .inner-container{
+	width: 100%;
+	height: auto;
+	border: 0px solid;
+}
+.container .inner-container .memberListView{
+	width: 100%;
+	height: auto;
+	border: 0px solid;
+}
+.container .inner-container .memberListView .sections{
+	width: 100%;
+	height: auto;
+	border: 0px solid;
+}
+.container .inner-container .memberListView .sections .sec1{
+	width: 100%;
+	height: auto;
+	border: 0px solid;
+	display: flex;
+	justify-content: center;
+}
+.container .inner-container .memberListView .sections .sec1 .sec-con {
+	flex: 0 1 600px;
+	border: 0px solid;
+	box-sizing: border-box;
+}
+.container .inner-container .memberListView .sections .sec1 .sec-con .memberListView-con{
+	height: calc( 100vh - 130px - 150px);
+}
+.container .inner-container .memberListView .sections .sec1 .sec-con .memberListView-con h1.title{
+	background-color: #555555;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px 0;
+}
+table, th, tr, td {
+	width: 100%;
+	border: 1px solid #cccccc;
+	border-collapse: collapse;
+}
+.container .inner-container .memberListView .sections .sec1 .sec-con .memberListView-con table tr{
+	display: flex;
+	justify-content: space-between;	
+}
+.container .inner-container .memberListView .sections .sec1 .sec-con .memberListView-con table tr th{
+	flex: 1;
+}
+.container .inner-container .memberListView .sections .sec1 .sec-con .memberListView-con table th{
+	flex: 1;
+	background-color: #96cdcc;
+}
+.container .inner-container .memberListView .sections .sec1 .sec-con .memberListView-con table tr td {
+	flex: 1;
+}
+.container .inner-container .memberListView .sections .sec1 .sec-con .memberListView-con table tr .la1 {
+	flex:0.5;
+}
+.container .inner-container .memberListView .sections .sec1 .sec-con .memberListView-con table td{
+	line-height: 20px;
+	text-align: center;
+}
+.container .inner-container .memberListView .sections .sec1 .sec-con .memberListView-con table td a{
+	display: block;
+	background-color: #07072c;
+	color: #ffffff;	
+}

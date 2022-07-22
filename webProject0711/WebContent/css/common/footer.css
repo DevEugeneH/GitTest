@@ -1,0 +1,21 @@
+/*footer*/
+.footer {
+	width: 100%;
+	height: auto;
+	background-color: #1f1f64;
+}
+
+.footer .inner-footer {
+	width: 100%; '
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.footer .inner-footer .fcon {
+	flex: 0 1 1000px;
+	height: auto;
+	line-height: 150px;
+	text-align: center;
+	color: #ffffff;
+}

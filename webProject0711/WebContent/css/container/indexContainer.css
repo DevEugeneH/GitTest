@@ -1,0 +1,40 @@
+/*indexContainer*/
+
+.container{
+	width: 100%;
+	height: auto;
+	border: 0px solid;
+}
+.container .inner-container{
+	width: 100%;
+	height: auto;
+	border: 0px solid;
+}
+.container .inner-container .index{
+	width: 100%;
+	height: auto;
+	border: 0px solid;
+}
+.container .inner-container .index .sections{
+	width: 100%;
+	height: auto;
+	border: 0px solid;
+}
+.container .inner-container .index .sections .sec1{
+	width: 100%;
+	height: auto;
+	border: 0px solid;
+	display: flex;
+	justify-content: center;
+}
+.container .inner-container .index .sections .sec1 .sec-con {
+	flex: 0 1 1000px;
+}
+.container .inner-container .index .sections .sec1 .sec-con .index-con{
+	height: calc( 100vh - 130px - 150px);
+	display : flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap : 20px;
+}
