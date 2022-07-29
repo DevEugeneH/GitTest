@@ -1,0 +1,124 @@
+@charset "UTF-8";
+ #wrap {
+	width: 100%;
+	min-height: 100vh;
+	background: url(../../img/index_bg.jpg) no-repeat 50%/cover;
+}
+.container {
+	width: 100%;
+}
+
+.container .inner-container {
+	width: 100%;
+}
+.container .inner-container .boardListView{
+	width: 100%;
+}
+
+.container .inner-containerr .boardListView .sections {
+	width: 100%;
+}
+.container .inner-container .boardListView  .sections .section.sec1 {
+	width: 100%;
+	height: calc( 100vh - 143px - 100px );
+	display: flex;
+	justify-content: center;
+}
+.container .inner-container .boardListView  .sections .section.sec1 .sec-con{
+	flex:0 1 1000px;
+	min-height:50vmin;
+	background-color: #000000b8;
+	
+}
+.container .inner-container .boardListView  .sections .section.sec1 .sec-con .boardListView-con {
+
+	padding:20px;
+	background-color: #000000b8;
+}
+
+.container .inner-container .boardListView  .sections .section.sec1 .sec-con .boardListView-con h1.title{
+	color:#ffffffee;
+	font-size:2vw;
+	text-align: center;
+	background-color: #22222299;
+	padding:15px 0;
+}
+.container .inner-container .boardListView  .sections .section.sec1 .sec-con .boardListView-con table{
+	width: 100%;
+}
+table, td, th{
+	border: 1px solid #ffffff55;
+	box-sizing: border-box;
+	border-collapse: collapse;
+}
+.container .inner-container .boardListView  .sections .section.sec1 .sec-con .boardListView-con table tr{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.container .inner-container .boardListView  .sections .section.sec1 .sec-con .boardListView-con table tr th{
+	flex:1;
+	padding:10px;
+	box-sizing: border-box;
+	background-color: #000000b8;
+	color: #ffffff;
+}
+
+.container .inner-container .boardListView  .sections .section.sec1 .sec-con .boardListView-con table tr td{
+	flex:1;
+	padding:5px 10px;
+	box-sizing: border-box;
+	color: #ffffff;
+}
+.t1{
+	flex:1 !important;
+}
+.t2{
+	flex:2 !important;
+}
+
+.t3{
+	flex:3 !important;
+}
+.t4{
+	flex:5 !important;
+}
+
+td.t1.first{
+	background-color: #5306767a;
+	color:#ffffff;
+}
+
+td.t1.last a{
+	display: block;
+	background-color: #ff000055;
+	color:#ffffff;
+}
+
+.search{
+	display: flex;
+	justify-content: flex-end;
+}
+.search .search-con{
+	padding:5px;
+}
+.search .search-con select{
+	height: 25;px;
+}
+.search .search-con input{
+	line-height: 20px;
+	padding:0 5px;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+

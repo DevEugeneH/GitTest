@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="hrd_20220719" path="/hrd_20220719" reloadable="true" source="org.eclipse.jst.jee.server:hrd_20220719"/><Context docBase="jspProject" path="/jspProject" reloadable="true" source="org.eclipse.jst.jee.server:jspProject"/><Context docBase="webProject_sub" path="/webProject_sub" reloadable="true" source="org.eclipse.jst.jee.server:webProject_sub"/></Host>
+      <Context docBase="hrd_20220719" path="/hrd_20220719" reloadable="true" source="org.eclipse.jst.jee.server:hrd_20220719"/><Context docBase="jspProject" path="/jspProject" reloadable="true" source="org.eclipse.jst.jee.server:jspProject"/><Context docBase="webProject_sub" path="/webProject_sub" reloadable="true" source="org.eclipse.jst.jee.server:webProject_sub"/><Context docBase="webProject0725" path="/webProject0725" reloadable="true" source="org.eclipse.jst.jee.server:webProject0725"/><Context docBase="hrdProjectO" path="/hrdProjectO" reloadable="true" source="org.eclipse.jst.jee.server:hrdProjectO"/><Context docBase="model2Project_O" path="/model2Project_O" reloadable="true" source="org.eclipse.jst.jee.server:model2Project_O"/><Context docBase="webProject0729" path="/webProject0729" reloadable="true" source="org.eclipse.jst.jee.server:webProject0729"/></Host>
     </Engine>
   </Service>
 </Server>
